@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+/public/
+/resources/_gen/
+
+hugo.exe
+hugo.linux
+hugo.darwin
+node_modules
+dist
+tmp
+.DS_Store
