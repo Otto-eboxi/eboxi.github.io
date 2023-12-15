@@ -1,3 +1,3 @@
 # Summary
 
-Noting imortant, just my personel blog pages. Mainly on autio repars and code
+Noting important, just my blog pages. Mainly on audio repairs and code
