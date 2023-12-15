@@ -6,5 +6,5 @@ image = "/images/dogs.jpg"
 draft = false
 +++
 
-Test post. Use the command `hugo new blog/title.md`
+Test post. Use the command xxxx `hugo new blog/title.md`
 and more
