@@ -1,3 +1,3 @@
-## Guide
+# Summary
 
-This guide covers the necessary bits. As the project evolves, it will only become more comprehensive
+Noting imortant, just my personel blog pages. Mainly on autio repars and code
