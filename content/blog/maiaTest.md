@@ -7,3 +7,4 @@ draft = false
 +++
 
 Test post. Use the command `hugo new blog/title.md`
+and more
