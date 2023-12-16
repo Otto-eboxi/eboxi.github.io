@@ -6,12 +6,13 @@ image = "/images/dogs.jpg"
 draft = false
 +++
 
+(Note this was first published on beoworld.org in 2021 but they removed the old posts)
 # Background 
 Like all older B&O systems, the Beomaster 4000 uses filament lamps. In most of the vintage B&O's these lamps are soldered in but the lamps in the Beomaster 4000 fits into a holder. If replaced, ideally with LEDs, these should just directly fit into these holders. To complicate replacement, the one lamp (red power) runs from 22V AC while the others run from about 13-14V DC.
 
 # Disassembled lamp. 
 Normally you will not remove the shell on the right. You will simply pull out the black holder in the middle from the inside. The lamp will come out with it. Removing takes some effort after 40+ years in this position
-![Disassembled lamp](./images/Beomaster4000/BO4000-lamp-disasm.jpg)
+![Disassembled lamp](BO4000-lamp-disasm.jpg)
 
 # Mechanical fit of LED replacements
 
@@ -22,12 +23,12 @@ LED selection
 
 Surface mount LED's come in different sizes. Most of them are rated 20-25mA maximum. Any one of these can be used. The color obviously depends on the color of the lamp, most are red except for the stereo lamp which is green. If you only have white LED's available, these can also be used.
 
-Comment: I have tried using 5mm through hole LEDs with through hole resistors because they are more readily available but eventually gave up because the fit is to tight.
+Comment: I have tried using 5mm through hole LEDs because they are more readily available but eventually gave up because the fit is to tight.
 22V ac lamp replacement
 
 The power rail is 22V ac. The LED design should limit the current to the LED's to <20mA (preferably about 10-14mA) using a resistor that can dissipate the heat.
 
-Assuming the voltage drop across the LED is about 2V, and the current you want is 10mA:
+Assuming the voltage drop across the LED is about 2V and assume the RMS voltage is still 22V (a bit more complex due to halfwave rectification but wiil ignore that for this calculation), and the current is 10mA:
     R = V/I = (22-2)/10mA = 2k ohm
 
 The dissipation through the resistor will then be:
