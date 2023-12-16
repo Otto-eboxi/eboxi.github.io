@@ -8,7 +8,7 @@ draft = false
 
 (Note this was first published on beoworld.org in 2021 but they removed the old posts)
 # Background 
-Like all older B&O systems, the Beomaster 4000 uses filament lamps. In most of the vintage B&O's these lamps are soldered in but the lamps in the Beomaster 4000 fits into a holder. If replaced, ideally with LEDs, these should just directly fit into these holders. To complicate replacement, the one lamp (red power) runs from 22V AC while the others run from about 13-14V DC.
+Like all older B&O systems, the Beomaster 4000 uses filament lamps. In most of the vintage B&O's these lamps are soldered in but the lamps in the Beomaster 4000 fits into a holder. An ideal replacement would be LED's that directly fit into these holders. One additional factor is that the power lamp (red) runs from 22V AC while the others run from about 13-14V DC.
 
 # Disassembled lamp. 
 Normally you will not remove the complete shell on the right, you will simply pull out the holder in the middle from the inside. The lamp will come out with it. In this case removing took some effort after 40+ years and therefore the complete holder was removed.
@@ -48,7 +48,8 @@ From the table a 1206 SMD resistor should be ok, but taking into account that th
 
 Note the 2 LED's back to back which will light up at the 2 half cycles of the 50Hz ac
 
-My build (sorry soldering is not up to scratch)
+![LED on PCB](/images/BO4LEDinHolder.jpg)
+My LED build (sorry soldering is not up to scratch)
 
 I used vero board but any old pcb, e.g. old PC card, with an edge connector can be cut for this purpose.
 
@@ -67,6 +68,8 @@ The dissipation through the resistor will then be about:
 So one SMD 1206 1k ohm resistor should do it. If you need a brighter display, you can also add more LED's in series. (You can reduce the resistor to 680 or 820 ohm for 2 LED's in series but 1k should still be fine)
 
 Note that in this case the LED orientation is important. If it does not work the first time, switch the orientation.
+
+![LED on PCB](/images/BO4LEDinHolder.jpg)
 
 The DC LED PCB. Note that this pcb was not shimmed. I used thin wires, seen on the left, that folds under the pcb. This ensures much better contact  with the socket.
 
