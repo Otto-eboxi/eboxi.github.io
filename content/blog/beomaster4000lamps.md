@@ -11,10 +11,14 @@ draft = false
 Like all older B&O systems, the Beomaster 4000 uses filament lamps. In most of the vintage B&O's these lamps are soldered in but the lamps in the Beomaster 4000 fits into a holder. If replaced, ideally with LEDs, these should just directly fit into these holders. To complicate replacement, the one lamp (red power) runs from 22V AC while the others run from about 13-14V DC.
 
 # Disassembled lamp. 
-Normally you will not remove the shell on the right. You will simply pull out the black holder in the middle from the inside. The lamp will come out with it. Removing takes some effort after 40+ years in this position
+Normally you will not remove the complete shell on the right, you will simply pull out the holder in the middle from the inside. The lamp will come out with it. In this case removing took some effort after 40+ years and therefore the complete holder was removed.
+
 ![Disassembled lamp1](/images/BO4000LampDisasm.jpg)
 
 # Mechanical fit of LED replacements
+
+![Test dog](/images/dogs.jpg)
+
 
 After several failures I have settled on using a cutoff pcb and SMD (surface mount) components. Most PCBs are 1.6mm thick but the slot for the lamp is about 2.3mm. The PCB will therefore need some "thickening". I have used 2 different approaches below. 
 
