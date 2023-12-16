@@ -25,7 +25,7 @@ otherSearchableFields = ["Tags", "Categories", "CustomField"] # As they appear i
 
 # Defaults to true if not set
 # Enable copyRight Footer Stamp. Takes in attribution
-enableCopyright = false
+# enableCopyright = false
 
 # search
 [search]
