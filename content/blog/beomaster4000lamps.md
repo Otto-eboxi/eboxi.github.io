@@ -12,7 +12,7 @@ Like all older B&O systems, the Beomaster 4000 uses filament lamps. In most of t
 
 # Disassembled lamp. 
 Normally you will not remove the shell on the right. You will simply pull out the black holder in the middle from the inside. The lamp will come out with it. Removing takes some effort after 40+ years in this position
-![Disassembled lamp1](/images/BO4000-lamp-disasm.jpg)
+![Disassembled lamp1](/images/BO4000LampDisasm.jpg)
 
 # Mechanical fit of LED replacements
 
