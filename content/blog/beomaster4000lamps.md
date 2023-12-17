@@ -8,7 +8,7 @@ draft = false
 
 (Note this was first published on beoworld.org in 2021 but they removed the old posts)
 # Background 
-Like all older B&O systems, the Beomaster 4000 uses filament lamps. In most of the vintage B&O's these lamps are soldered in but the lamps in the Beomaster 4000 fits into a holder. An ideal replacement would be LED's that directly fit into these holders. One additional factor is that the power lamp (red) runs from 22V AC while the others run from about 13-14V DC.
+Like a lot older B&O systems, the Beomaster 4000 uses filament lamps. In most of the vintage B&O's these lamps are soldered but the lamps in the Beomaster 4000 fits into a holder. An ideal replacement would be LED's that directly fit into these holders. One additional factor to keep in mind is that the power lamp (red) runs from 22V AC while the other lamps run from 13-14V DC.
 
 # Disassembled lamp. 
 Normally you will not remove the complete shell on the right, you will simply pull out the holder in the middle from the inside. The lamp will come out with it. In this case removing took some effort after 40+ years and therefore the complete holder was removed.
@@ -17,13 +17,14 @@ Normally you will not remove the complete shell on the right, you will simply pu
 
 # Mechanical fit of LED replacements
 
-![Test dog](/images/dogs.jpg)
+![LED in Holder](/images/BO4LEDinHolder.jpg)
 
 
 After several failures I have settled on using a cutoff pcb and SMD (surface mount) components. Most PCBs are 1.6mm thick but the slot for the lamp is about 2.3mm. The PCB will therefore need some "thickening". I have used 2 different approaches below. 
 
+# Resistor Calculations
 To limit the current some resistances are needed. Also keep in mind that the dissipation of resistances are limited and must be taken into account in this application. The calculations are shown below.
-LED selection
+# LED selection
 
 Surface mount LED's come in different sizes. Most of them are rated 20-25mA maximum. Any one of these can be used. The color obviously depends on the color of the lamp, most are red except for the stereo lamp which is green. If you only have white LED's available, these can also be used.
 
@@ -44,11 +45,13 @@ Imperial 	Metric 	Watt
 0805 	2012 	1/8 (0.125)
 1206 	3216 	1/4 (0.25)
 
+# AC lamp
 From the table a 1206 SMD resistor should be ok, but taking into account that this rating is applicable in free air movement @ 25C,  it is better to select a larger resistor size or use 2 x 1k in series. The advantage of 2 in series is that it is easier to get 1k resistors. Combining it, the final circuit is 
 
 Note the 2 LED's back to back which will light up at the 2 half cycles of the 50Hz ac
 
-![LED on PCB](/images/BO4LEDinHolder.jpg)
+![AC LEDs on PCB](B4Lamp2LEDac.jpg)
+
 My LED build (sorry soldering is not up to scratch)
 
 I used vero board but any old pcb, e.g. old PC card, with an edge connector can be cut for this purpose.
@@ -69,8 +72,9 @@ So one SMD 1206 1k ohm resistor should do it. If you need a brighter display, yo
 
 Note that in this case the LED orientation is important. If it does not work the first time, switch the orientation.
 
-![LED on PCB](/images/BO4LEDinHolder.jpg)
 
 The DC LED PCB. Note that this pcb was not shimmed. I used thin wires, seen on the left, that folds under the pcb. This ensures much better contact  with the socket.
+
+![LED on PCB](/images/BO4LEDinHolder.jpg)
 
 LED fitted into holder.
