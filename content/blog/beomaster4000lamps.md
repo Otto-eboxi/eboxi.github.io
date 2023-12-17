@@ -24,12 +24,15 @@ After several failures I have settled on using a cutoff pcb and SMD (surface mou
 
 # Resistor Calculations
 To limit the current some resistances are needed. Also keep in mind that the dissipation of resistances are limited and must be taken into account in this application. The calculations are shown below.
+
 # LED selection
 
 Surface mount LED's come in different sizes. Most of them are rated 20-25mA maximum. Any one of these can be used. The color obviously depends on the color of the lamp, most are red except for the stereo lamp which is green. If you only have white LED's available, these can also be used.
 
 Comment: I have tried using 5mm through hole LEDs because they are more readily available but eventually gave up because the fit is to tight.
 22V ac lamp replacement
+
+# Resistor selection 
 
 The power rail is 22V ac. The LED design should limit the current to the LED's to <20mA (preferably about 10-14mA) using a resistor that can dissipate the heat.
 
@@ -48,20 +51,23 @@ Imperial 	Metric 	Watt
 # AC lamp
 From the table a 1206 SMD resistor should be ok, but taking into account that this rating is applicable in free air movement @ 25C,  it is better to select a larger resistor size or use 2 x 1k in series. The advantage of 2 in series is that it is easier to get 1k resistors. Combining it, the final circuit is 
 
-Note the 2 LED's back to back which will light up at the 2 half cycles of the 50Hz ac
 
-![AC LEDs on PCB](B4Lamp2LEDac.jpg)
+![AC LEDs on PCB](/B4Lamp2LEDac.jpg)
 
 My LED build (sorry soldering is not up to scratch)
+
+Note the 2 LED's back to back which will each light up in one of the 2 half cycles of the 50Hz AC.
 
 I used vero board but any old pcb, e.g. old PC card, with an edge connector can be cut for this purpose.
 
 Note that I have changed the resistor positions with one resistor on each side of the LEDs.
 
-Not shown is a thin shim (about 1mm) glued to the bottom because the PCB is to thin.
-13V dc lamp replacement
 
-Similar to the calculations above:    R = V/I = 11/10mA = 1.1 ohm 
+Not shown is a thin shim (about 1mm) glued to the bottom because the PCB is to thin.
+
+# DC lamps (13-14Vdc)
+
+Similar to the calculations above:    R = V/I = 11/10mA = 1.1 kilo ohm 
 
 To make it simpler, select 1k resistor for this one as well.
 
