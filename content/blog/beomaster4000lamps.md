@@ -2,7 +2,7 @@
 author = "Otto"
 title = 'Beomaster 4000 Lamp Replacement'
 date = 2021-12-15T14:30:17+02:00
-image = "/images/dogs.jpg"
+image = "/images/microligth1.jpg"
 draft = false
 +++
 
@@ -52,7 +52,7 @@ Imperial 	Metric 	Watt
 From the table a 1206 SMD resistor should be ok, but taking into account that this rating is applicable in free air movement @ 25C,  it is better to select a larger resistor size or use 2 x 1k in series. The advantage of 2 in series is that it is easier to get 1k resistors. Combining it, the final circuit is 
 
 
-![AC LEDs on PCB](/B4Lamp2LEDac.jpg)
+![AC LEDs on PCB](/images/B4Lamp2LEDac.jpg)
 
 My LED build (sorry soldering is not up to scratch)
 
