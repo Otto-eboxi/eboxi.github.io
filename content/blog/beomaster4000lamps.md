@@ -2,7 +2,7 @@
 author = "Otto"
 title = 'Beomaster 4000 Lamp Replacement'
 date = 2021-12-15T14:30:17+02:00
-image = "/images/microligth1.jpg"
+image = "/images/microlight1.jpg"
 draft = false
 +++
 
@@ -49,21 +49,20 @@ Imperial 	Metric 	Watt
 1206 	3216 	1/4 (0.25)
 
 # AC lamp
-From the table a 1206 SMD resistor should be ok, but taking into account that this rating is applicable in free air movement @ 25C,  it is better to select a larger resistor size or use 2 x 1k in series. The advantage of 2 in series is that it is easier to get 1k resistors. Combining it, the final circuit is 
+From the table a 1206 SMD resistor should be able to handle the power, but taking into account that this rating is applicable in free air movement @ 25C,  it is better to select a larger resistor size or use 2 x 1k in series. The advantage of 2 in series is that it is easier to get 1k resistors. Combining it, the final citcuit looks like this: 
 
 
 ![AC LEDs on PCB](/images/B4Lamp2LEDac.jpg)
 
-My LED build (sorry soldering is not up to scratch)
+My LED build (sorry, soldering is not great)
 
 Note the 2 LED's back to back which will each light up in one of the 2 half cycles of the 50Hz AC.
 
 I used vero board but any old pcb, e.g. old PC card, with an edge connector can be cut for this purpose.
 
-Note that I have changed the resistor positions with one resistor on each side of the LEDs.
+Note that I have one resistor on each side of the LEDs.
 
-
-Not shown is a thin shim (about 1mm) glued to the bottom because the PCB is to thin.
+Not shown is a thin shim (about 1mm) glued to the bottom to get the thickness right.
 
 # DC lamps (13-14Vdc)
 
@@ -79,7 +78,7 @@ So one SMD 1206 1k ohm resistor should do it. If you need a brighter display, yo
 Note that in this case the LED orientation is important. If it does not work the first time, switch the orientation.
 
 
-The DC LED PCB. Note that this pcb was not shimmed. I used thin wires, seen on the left, that folds under the pcb. This ensures much better contact  with the socket.
+The DC LED PCB. Note that this pcb was not shimmed. I used thin wires, that folds under the pcb. This ensures much better contact  with the socket.
 
 ![LED on PCB](/images/BO4LEDinHolder.jpg)
 
