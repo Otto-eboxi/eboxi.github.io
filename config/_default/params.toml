@@ -47,9 +47,3 @@ key = "da87401a458102ec6bbd6cc5e5cf8d95" # Search-Only API Key
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
   url = "https://otto-eboxi.github.io"
-
-# optional
-# attribution. Feel free to delete this
-[author]
-  name = "Otto"
-  url = "https://otto-eboxi.github.io"

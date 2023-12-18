@@ -6,8 +6,10 @@ image = "/images/microlight1.jpg"
 draft = false
 +++
 
-(Note this was first published on beoworld.org in 2021 but they removed the old posts)
+A simple way to replace the B&O filament lamps with LED's
+ 
 # Background 
+(Note this was first published on beoworld.org in 2021 but they removed the old posts)
 Like a lot older B&O systems, the Beomaster 4000 uses filament lamps. In most of the vintage B&O's these lamps are soldered but the lamps in the Beomaster 4000 fits into a holder. An ideal replacement would be LED's that directly fit into these holders. One additional factor to keep in mind is that the power lamp (red) runs from 22V AC while the other lamps run from 13-14V DC.
 
 # Disassembled lamp. 
