@@ -6,8 +6,8 @@
 
 [[main]]
   name = "Blog IOT"
-  weight = 5
-  url = "blogIot/"
+  weight = 4
+  url = "blogiot/"
 
 # [[main]]
 #   name = "Docs"
