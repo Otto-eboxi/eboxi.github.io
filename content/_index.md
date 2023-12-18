@@ -11,7 +11,7 @@ title = "Projects"
 {{< block "grid-2" >}}
 {{< column >}}
 
-# Summary
+# Intro
 Just a blog to keep track of some of the things I am working on.
 
 {{< tip >}}

@@ -49,7 +49,7 @@ Imperial 	Metric 	Watt
 1206 	3216 	1/4 (0.25)
 
 # AC lamp
-From the table a 1206 SMD resistor should be able to handle the power, but taking into account that this rating is applicable in free air movement @ 25C,  it is better to select a larger resistor size or use 2 x 1k in series. The advantage of 2 in series is that it is easier to get 1k resistors. Combining it, the final citcuit looks like this: 
+From the table a 1206 SMD resistor should be able to handle the power, but taking into account that this rating is applicable in free air movement @ 25C,  it is better to select a larger resistor size or use 2 x 1k in series. The advantage of 2 in series is that it is easier to get 1k resistors. Combining it, the final PCB looks like this: 
 
 
 ![AC LEDs on PCB](/images/B4Lamp2LEDac.jpg)

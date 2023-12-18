@@ -4,6 +4,11 @@
   weight = 5
   url = "blog/"
 
+[[main]]
+  name = "Blog IOT"
+  weight = 5
+  url = "blogIot/"
+
 # [[main]]
 #   name = "Docs"
 #   weight = 2
