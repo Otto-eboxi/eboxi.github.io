@@ -3,5 +3,5 @@ title = "Blog IOT"
 +++
 
 Exploring power optimization using IOT.
-[Solar Monitor](/solarmonitor/)
-[Solar Optimizer](/solaroptimizer/)
+[Solar Monitor](/blogiot/solarmonitor/)
+[Solar Optimizer](/blogiot/solaroptimizer/)
