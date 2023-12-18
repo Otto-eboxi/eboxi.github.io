@@ -1,6 +1,6 @@
 +++
 author = "Otto"
-title = 'A python solar logger and power optimizer'
+title = 'A solar power optimizer'
 date = 2023-10-15T14:30:17+02:00
 image = "/images/microlight1.jpg"
 draft = false
