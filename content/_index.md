@@ -14,6 +14,9 @@ title = "Projects"
 # Intro
 Just a blog to keep track of some of the things I am working on.
 
+Icons from:
+<a href="https://www.flaticon.com/free-icons/earth-day" title="earth day icons">Earth day icons created by Freepik - Flaticon</a>
+
 {{< tip >}}
 You can generate diagrams, flowcharts, and piecharts from text in a similar manner as markdown using [mermaid](./docs/compose/mermaid/).
 
