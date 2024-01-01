@@ -4,10 +4,10 @@
   weight = 5
   url = "blog/"
 
-[[main]]
-  name = "Blog IOT"
-  weight = 4
-  url = "blogiot/"
+# [[main]]
+#   name = "Blog IOT"
+#   weight = 4
+#   url = "blogiot/"
 
 # [[main]]
 #   name = "Docs"
@@ -23,7 +23,7 @@
 
 [[main]]
   name = "Tutorials"
-  weight = 2
+  weight = 12
   url = "tutorials/"
 
 # [[main]]
